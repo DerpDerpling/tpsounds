@@ -2,14 +2,14 @@
 	"schemaVersion": 1,
 	"id": "tpsounds",
 	"version": "${version}",
-	"name": "TPsounds",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "TP Sounds",
+	"description": "plays the tp sound for dragon eggs, ender pearls, and end gateways",
 	"authors": [
-		"Me!"
+		"DerpDerpling"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/DerpDerpling/tpsounds"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/tpsounds/icon.png",
@@ -27,8 +27,5 @@
 		"minecraft": "~1.19.4",
 		"java": ">=17",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }
