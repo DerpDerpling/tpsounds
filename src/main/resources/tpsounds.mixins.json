@@ -3,7 +3,9 @@
 	"package": "derp.tpsounds.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"ExampleMixin"
+		"DragonEggBlockMixin",
+		"EnderPearlEntityMixin",
+		"EndGatewayBlockEntityMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

@@ -1,0 +1,3 @@
+accessWidener	v1	named
+
+accessible field net/minecraft/block/entity/EndGatewayBlockEntity exitPortalPos Lnet/minecraft/util/math/BlockPos;

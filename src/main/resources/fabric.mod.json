@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"derp.tpsounds.ExampleMod"
+			"derp.tpsounds.TPSounds"
 		]
 	},
 	"mixins": [
