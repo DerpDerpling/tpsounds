@@ -1,13 +1,14 @@
 {
-	"required": true,
-	"package": "derp.tpsounds.mixin",
-	"compatibilityLevel": "JAVA_17",
-	"mixins": [
-		"DragonEggBlockMixin",
-		"EnderPearlEntityMixin",
-		"EndGatewayBlockEntityMixin"
-	],
-	"injectors": {
-		"defaultRequire": 1
+  "required": true,
+  "package": "derp.tpsounds.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "DragonEggBlockMixin",
+    "EnderPearlEntityMixin",
+    "EndGatewayBlockEntityMixin",
+    "FollowOwnerGoalMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
 	}
 }

@@ -1,0 +1,16 @@
+{
+  "pettp": {
+    "subtitle": "subtitles.tpsounds.pettp",
+    "sounds": [
+      "tpsounds:tp1",
+      "tpsounds:tp2"
+    ]
+  },
+  "dragoneggtp": {
+    "subtitle": "subtitles.tpsounds.dragonegg",
+    "sounds": [
+      "tpsounds:tp1",
+      "tpsounds:tp2"
+    ]
+  }
+}
