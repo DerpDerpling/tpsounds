@@ -1,19 +1,18 @@
 package derp.tpsounds.mixin;
 
-import java.lang.reflect.Field;
-
 import net.minecraft.block.BlockState;
+import net.minecraft.block.entity.EndGatewayBlockEntity;
+import net.minecraft.entity.Entity;
+import net.minecraft.sound.SoundCategory;
+import net.minecraft.sound.SoundEvents;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.World;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-import net.minecraft.block.entity.EndGatewayBlockEntity;
-import net.minecraft.entity.Entity;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.world.World;
-import net.minecraft.sound.SoundCategory;
-import net.minecraft.sound.SoundEvents;
+import java.lang.reflect.Field;
 
 @Mixin(EndGatewayBlockEntity.class)
 public class EndGatewayBlockEntityMixin {

@@ -19,7 +19,7 @@ import net.minecraft.world.World;
 public abstract class EnderPearlEntityMixin {
 	@Inject(method = "onCollision", at = @At("HEAD"))
 	private void playSoundOnCollision(HitResult hitResult, CallbackInfo ci) {
-		World world = ((EnderPearlEntity)(Object)this).world;
+		World world = ((EnderPearlEntity) (Object) this).getWorld();
 		if (!world.isClient) {
 			ScheduledExecutorService scheduler = Executors.newSingleThreadScheduledExecutor();
 			scheduler.schedule(() -> {
